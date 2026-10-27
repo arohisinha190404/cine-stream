@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/favorites", "destination": "/" },
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ]
+}
